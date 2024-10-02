@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333333; /* Dark gray for text */
+}
+
+header {
+    background-color: #f0f8ff; /* Light blue background for header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #87ceeb; /* Slightly darker blue border */
+}
+
+h1 {
+    color: #1e90ff; /* DodgerBlue for the main heading */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1e90ff; /* DodgerBlue for links */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #4682b4; /* SteelBlue for subheadings */
+    border-bottom: 1px solid #87ceeb; /* Blue underline for subheadings */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+strong {
+    color: #1e90ff; /* Blue for emphasizing text */
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Buttons and Links */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #104e8b; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #87ceeb;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #87ceeb;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
